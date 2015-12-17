@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart_AttBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sub__select">Sub_Select</string>
+    <string name="title_activity_att__today">Att_Today</string>
+    <string name="title_activity_att__total">Att_Total</string>
+     <string name="title_activity_student">StudentActivity</string>
+    <string name="list_empty">No data to display</string>
+    <string name="input_student_picture">Change Student Picture</string>
+    <string name="input_student_number">Student Number</string>
+    <string name="input_student_name">Student Name</string>
+    <string name="input_student_phone">Student Phone</string>
+    <string name="input_student_address">Student Address</string>
+    <string name="input_professor_picture">Change Professor Picture</string>
+    <string name="input_professor_number">Professor Number</string>
+    <string name="input_professor_name">Professor Name</string>
+    <string name="input_professor_phone">Professor Phone</string>
+    <string name="input_professor_address">Professor Address</string>
+    
+    <string name="input_lecture_id">Lecture Id</string>
+    <string name="input_lecture_name">Lecture name</string>
+    <string name="input_professor_id">Professor Id</string>
+    <string name="input_lecture_week">Lecture Week</string>
+     <string name="input_lecture_start_time">Start Time</string>
+      <string name="input_lecture_end_time">End Time</string>
+       <string name="input_lecture_place">Place</string>
+    
+  
+    <string name="button_search">Search</string>
+    <string name="button_next">Next</string>
+    <string name="button_prev">Prev</string>
+    <string name="button_save">Save</string>
+    <string name="button_update">Update</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_select">select</string>
+    <string name="exit_message">Press again to exit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="alert_network_timeout">Server connect failed</string>
+    <string name="alert_search_input">Check your search words</string>
+    <string name="alert_table_insert_failed">Table insert failed</string>
+    <string name="alert_input">Check the input</string>
+    <string name="alert_image_upload_failed">Image upload failed</string>
+    <string name="list_context_menu_update">Update</string>
+    <string name="list_context_menu_delete">Delete</string>
+    <string name="title_activity_admin__menu">Admin_Menu</string>
+    <string name="title_activity_professor">ProfessorActivity</string>
+    <string name="title_activity_lecture_acitivity">LectureAcitivity</string>
+    <string name="title_activity_lecture">LectureActivity</string>
+    <string name="title_activity_professor_edit">ProfessorEditActivity</string>
+    <string name="title_activity_lecture_edit">LectureEditActivity</string>
+<string name="title_activity_student_edit">StudentEditActivity</string>
+</resources>

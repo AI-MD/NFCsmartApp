@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_lecture_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/input_lecture_id" />
+
+    <EditText
+        android:id="@+id/edit_lecture_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLines="60" >
+
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tv_lecture_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/input_lecture_name" />
+
+    <EditText
+        android:id="@+id/edit_lecture_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="60"
+        android:ems="10" >
+    </EditText>
+        
+    
+    <TextView
+        android:id="@+id/tv_professor_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/input_professor_id" />
+
+    <EditText
+        android:id="@+id/edit_professor_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLines="60" >
+
+    </EditText>
+        
+    
+    <TextView
+        android:id="@+id/tv_lecture_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/input_lecture_week" />
+
+    <EditText
+        android:id="@+id/edit_lecture_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        
+        android:maxLines="60" >
+
+    </EditText>
+        
+    <TextView
+        android:id="@+id/tv_lecture_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/input_lecture_start_time" />
+
+    <EditText
+        android:id="@+id/edit_lecture_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="60"
+        android:ems="10" >
+    </EditText>
+       <TextView
+        android:id="@+id/tv_lecture_end_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/input_lecture_end_time" />
+
+    <EditText
+        android:id="@+id/edit_lecture_end_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="60"
+        android:ems="10" >
+    </EditText>
+    
+       <TextView
+        android:id="@+id/tv_lecture_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/input_lecture_place" />
+
+    <EditText
+        android:id="@+id/edit_lecture_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="60"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
